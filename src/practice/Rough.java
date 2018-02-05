@@ -21,6 +21,8 @@ public class Rough {
         driver.findElement(By.xpath("//input[@id='flight-destination']")).sendKeys("coimbatore");
         WebElement date=driver.findElement(By.xpath("//input[@id='flight-departing']"));
         date.sendKeys("03/01/2018");
+		
+		
         date.sendKeys(Keys.ENTER);
 
 	}
