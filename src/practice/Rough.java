@@ -23,7 +23,7 @@ public class Rough {
         date.sendKeys("03/01/2018");
 		
 		
-        date.sendKeys(Keys.ENTER);
+        date.click();
 
 	}
 }
